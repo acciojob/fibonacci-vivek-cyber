@@ -12,9 +12,9 @@ let b=1
 			{
 				sum=a+b
 				a=b;
-				b=num;
+				b=sum;
 			}
-		return num
+		return sum
 	}
 }
 
