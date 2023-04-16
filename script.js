@@ -7,9 +7,10 @@ let b=1
 	}
 	else
 	{
+		let sum=1
 		for(let i=3;i<=num;i++)
 			{
-				num=a+b
+				sum=a+b
 				a=b;
 				b=num;
 			}
